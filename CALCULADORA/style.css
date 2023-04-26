@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculadora{
+    margin: a;
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+}
