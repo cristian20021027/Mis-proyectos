@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background:rgba(0, 0, 0, 0.534) url(img/series-netflix.webp);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+  width: 100%;
+}
+.header img{
+  padding-left: 40px;
+  width: 180px;
+}
+.registerBlock {
+  color: white;
+  width: 460px;
+  height: 640px;
+  background-color: rgba(0, 0, 0, 0.712);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+}
+.paddingblock{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+::placeholder{
+  color: white;
+}
+.inputs{
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.inputs input{
+  background-color: #454545;
+  border: none;
+  margin-top: 10px;
+  color: white;
+  padding: 5px;
+  height: 35px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.footer{
+  color: white;
+}
+.container{
+  background-color: rgba(0, 0, 0, 0.479);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.button button{
+  width: 100%;
+  height: 45px;
+  background-color: red;
+  border:none;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.checkbox{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.nuevo{
+  color: #727272;
+}
+.Suscribete{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.Suscribete:hover{
+  text-decoration: underline;
+}
+.footer{
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.562);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
